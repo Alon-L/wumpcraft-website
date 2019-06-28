@@ -1,0 +1,40 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "arrow-parens": [
+      "off"
+    ],
+    "consistent-return": "off",
+    "comma-dangle": "off",
+    "generator-star-spacing": "off",
+    "no-console": "off",
+    "no-continue": "off",
+    "no-use-before-define": "off",
+    "no-multi-assign": "off",
+    "no-shadow": "warn",
+    "no-restricted-syntax": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-underscore-dangle": "warn",
+    "promise/param-names": "error",
+    "promise/always-return": "error",
+    "promise/catch-or-return": "warn",
+    "promise/no-native": "off",
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ]
+  },
+  "plugins": ["promise"]
+}

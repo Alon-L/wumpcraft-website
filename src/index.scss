@@ -1,0 +1,50 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Work Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background: linear-gradient(to top, #17191d, #2e3236);
+}
+
+%half-width {
+  width: 50%;
+}
+
+%padding {
+  padding: 50px 0;
+}
+
+.commands {
+  @extend %padding, %half-width;
+  width: 100%;
+  text-align: center;
+}
+
+.commands-cont {
+  display: inline-block;
+}
+
+.commands h1 {
+  text-decoration: underline;
+}
+
+.command {
+  text-align: left;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.social a {
+  color: white;
+  font-size: 128px;
+}
