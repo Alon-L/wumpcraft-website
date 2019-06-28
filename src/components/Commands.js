@@ -14,7 +14,7 @@ class Commands extends Component {
       },
       {
         desc: 'Spectate a member\'s world while they are playing.',
-        usage: 'spactate [@user]'
+        usage: 'spectate [@user]'
       },
       {
         desc: 'Close your open game view.',

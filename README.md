@@ -14,7 +14,7 @@ This website was made using React, Webpack, and Babel for Discord Hack Week 2019
 It has all the required commands of my bot submission and tends to give more information to newcomers.
 
 ## Bot
-* Invite the bot to your server [here](https://discord.gg/VUu7zSF)
+* Invite the bot to your server [here](https://discordapp.com/oauth2/authorize?client_id=592667565898334208&scope=bot&permissions=268774480)
 * Join the bot test server [here](https://discord.gg/VUu7zSF)
 * Visit the bot repository [here](https://github.com/DayColor/wumpcraft)
 
