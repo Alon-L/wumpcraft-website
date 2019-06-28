@@ -17,8 +17,20 @@ class Commands extends Component {
         usage: 'spactate [@user]'
       },
       {
+        desc: 'Close your open game view.',
+        usage: 'close'
+      },
+      {
         desc: 'Lists all the commands.',
         usage: 'help <command>'
+      },
+      {
+        desc: 'Sends the invitation link for the bot.',
+        usage: 'invite'
+      },
+      {
+        desc: 'Shows the credits for this bot.',
+        usage: 'credits'
       },
       {
         desc: 'Replies with the bot reaction time.',
