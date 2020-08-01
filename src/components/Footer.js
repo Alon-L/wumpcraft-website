@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer text-center">
-        <p><FontAwesomeIcon icon={faCode}/> with <FontAwesomeIcon icon={faHeart}/> by DayColor#0001 for Discord Hack Week 2019</p>
+        <p><FontAwesomeIcon icon={faCode}/> with <FontAwesomeIcon icon={faHeart}/> by Day#0001 for Discord Hack Week 2019</p>
       </div>
     );
   }
